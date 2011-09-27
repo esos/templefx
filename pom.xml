@@ -9,6 +9,7 @@
 
     <properties>
         <repository.host>127.0.0.1:8080</repository.host>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <modules>
@@ -21,6 +22,7 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.5</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

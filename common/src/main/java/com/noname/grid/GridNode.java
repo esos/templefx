@@ -1,6 +1,8 @@
 package com.noname.grid;
 
-public class GridNode {
+import com.noname.collections.AbstractGraphVertice;
+
+public class GridNode extends AbstractGraphVertice {
 	private static final String stringTemplate = "%s1 coordinates are: x = %2f, y = %3f, z = %4f";
 	private float _x, _y, _z = 0.0f;
 

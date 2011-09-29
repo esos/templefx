@@ -1,13 +1,9 @@
 package com.noname.grid;
 
-abstract class GridMatrix {
+import com.noname.collections.AbstractGraph;
+
+abstract class GridMatrix extends AbstractGraph {
 	
 	public GridMatrix() {
-	}
-	
-	public void add(GridNode node) {
-	}
-	
-	public void insert(GridNode node) {
 	}
 }

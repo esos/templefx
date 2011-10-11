@@ -1,3 +1,37 @@
+## project settings and configuration
 .settings/
+.metadata/
+
+## build artifacts
 bin/
 target/
+
+## binaries and so forth
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+## archives, packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+## miscellaneous
+*.log
+*.sql
+*.sqlite
+
+## operating system specific
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+.gitignore/

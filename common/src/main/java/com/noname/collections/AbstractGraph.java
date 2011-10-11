@@ -8,4 +8,4 @@ public abstract class AbstractGraph implements Iterable<AbstractGraphVertice> {
 	public void insert(AbstractGraphVertice vertice) {
 	}
 	
-}
+} 
